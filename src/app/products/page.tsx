@@ -1,4 +1,6 @@
-export default function Products() {
+import React from "react";
+
+const Products = () => {
   return (
     <>
       <h1>Products Page</h1>
@@ -7,4 +9,6 @@ export default function Products() {
       <h2>Product 3</h2>
     </>
   );
-}
+};
+
+export default Products;
